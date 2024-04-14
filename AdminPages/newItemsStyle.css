@@ -1,0 +1,147 @@
+﻿body {
+    background-image: url('../Pic/cleaning-equipment-products-household-chemicals-85673752 (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.hearder {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+#lbBrightness {
+font-size:small;
+}
+#LBnewItem{
+    margin-left:35%;
+}
+.mydiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Rockwell;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: midnightblue;
+}
+
+#lbUser {
+    position:relative;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: navy;
+    margin-left: 80%;
+}
+
+#menu-toggle:checked + ul {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 10%;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.navbar {
+    margin-left: 10px;
+    position: relative;
+}
+
+    .navbar input[type="checkbox"] {
+        display: none;
+    }
+
+li {
+    margin-top: 10px;
+}
+#btnExisting {
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    font-family:'Agency FB';
+    font-weight:bold;
+}
+.contents {
+   
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+   
+}
+
+.textbox {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left:10%;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: #45a049;
+    }
+
+#uploadedImage {
+    max-width: 100px;
+    margin-top:5%;
+    max-height: 100px;
+    margin-left:45%;
+}
+
+#btnUpload {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.label-style {
+    font-weight: bold;
+    margin-left: 29px;
+    color: navy;
+}
+#lblItemName{
+    margin-top:20px;
+}

@@ -1,0 +1,161 @@
+﻿body {
+    background-image: url('../Pic/cleaning-equipment-products-household-chemicals-85673752 (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hearder {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+#lbBrightness {
+    font-size: small;
+}
+
+#LBnewItem {
+    margin-left: 35%;
+}
+
+.mydiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Rockwell;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: midnightblue;
+}
+
+#lbUser {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: navy;
+    margin-left: 80%;
+}
+
+#menu-toggle:checked + ul {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 10%;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.navbar {
+    margin-left: 10px;
+    position: relative;
+}
+
+    .navbar input[type="checkbox"] {
+        display: none;
+    }
+
+li {
+    margin-top: 10px;
+}
+
+#GridView1 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    #GridView1 td {
+        background-color: royalblue;
+    }
+
+    #GridView1 th,
+    #GridView1 td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    #GridView1 th {
+        background-color: darkblue;
+    }
+
+.gridview-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+#btnRefresh {
+    margin-top: 28px;
+    margin-left: 5%
+}
+
+#lbSearch {
+    margin-left: 60%;
+}
+
+#lblSelectedItemName {
+    margin-left: 35%;
+    color: forestgreen;
+}
+.rd-style {
+    margin-right: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    color:royalblue;
+}
+.span-content {
+    margin-top: 50px;
+    max-width: 50%;
+    margin-left: 42%;
+   
+}
+#RDstore{
+    margin-left:40%;
+}
+#btnSave {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.textbox {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 29px;
+    border: 1px solid navy;
+}
+
+.label-style {
+    font-weight: bold;
+    color: navy; 
+    margin-left: 29px;
+}

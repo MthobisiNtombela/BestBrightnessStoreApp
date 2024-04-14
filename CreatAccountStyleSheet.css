@@ -1,0 +1,59 @@
+﻿
+body {
+    background-image: url('Pic/cleaning-equipment-products-household-chemicals-85673752 (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#MyDiv {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+
+.label-style {
+    color: #333; 
+    font-weight: bold;
+}
+
+#txtFname, #txtLname, #txtUsername, #txtpassword, #txtConfirmPassword {
+    width: 90%;
+    margin-right5 %;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+#btnRegister {
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:50%;
+    margin-left:25%;
+}
+
+
+    #btnRegister:hover {
+        background-color: #0056b3; 
+    }

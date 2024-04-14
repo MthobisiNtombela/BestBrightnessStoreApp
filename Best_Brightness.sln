@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Best_Brightness", "Best_Brightness.csproj", "{EC1ABA16-FD3F-48E2-B1A5-C4DF5C9D8040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC1ABA16-FD3F-48E2-B1A5-C4DF5C9D8040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1ABA16-FD3F-48E2-B1A5-C4DF5C9D8040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1ABA16-FD3F-48E2-B1A5-C4DF5C9D8040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1ABA16-FD3F-48E2-B1A5-C4DF5C9D8040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B97AE90B-9741-4E5B-B8D7-EA92EA30B92C}
+	EndGlobalSection
+EndGlobal
